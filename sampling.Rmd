@@ -15,10 +15,8 @@ library(janitor)
 
 sheets_deauth()
 
-read_sheet("https://docs.google.com/spreadsheets/d/14HmwN2cEVAJHupuehCuLdwG9BXtR3COrxDgaaylLhkA/edit#gid=0") %>%
+x <- read_sheet("https://docs.google.com/spreadsheets/d/14HmwN2cEVAJHupuehCuLdwG9BXtR3COrxDgaaylLhkA/edit#gid=0") %>%
   clean_names()
-
-
 
 ```
 
